@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedor2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral70"
+    tools:context=".BotonesFragmento">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btnverde"
+        android:layout_width="179dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="148dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="CLIC AQUI"
+        app:cornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="148dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="CLIC EN BOTON ROJO"
+        app:cornerRadius="20dp"
+        app:layout_constraintStart_toEndOf="@+id/Btnverde"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="234dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="28dp"
+        android:text="ESTILO DE BOTONES"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="96dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="604dp"
+        android:backgroundTint="#090808"
+        android:text="ATRAS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnnivel"
+        android:layout_width="262dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#2196F3"
+        android:text="NIVEL 4 COMPLETADO"
+        app:cornerRadius="30dp"
+
+        app:icon="@android:drawable/star_big_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <Button
+        android:id="@+id/btnmusica"
+        android:layout_width="278dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#317734"
+        android:text="MUSICA PAUSADA"
+        app:cornerRadius="5dp"
+        app:icon="@android:drawable/ic_media_pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

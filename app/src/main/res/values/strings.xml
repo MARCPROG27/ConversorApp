@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ConversorApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- <string name="hello_blank_fragment">Hello blank fragment</string> -->
+     <string name="valor1">PESO CHILENO   => DOLAR USA</string>
+     <string name="valor2">PESO ARGENTINO => DOLAR USA</string>
+     <string name="valor3">PESO PERUANO   => DOLAR USA</string>
+
+ </resources>
